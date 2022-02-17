@@ -1,0 +1,123 @@
+.hero-title {
+    margin-top: 150px;
+
+}
+
+.hero-title h1 {
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.hero-title h2 {
+    text-align: justify;
+    color: white;
+    font-size: 17px;
+}
+
+
+.ant-layout {
+    background-size: 1520px;
+    background-image: url("https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202106/MIT-Algorand-01_0.jpg?itok=kc8Jm3nW") !important;
+}
+
+
+.row {
+    padding: 30px;
+    background: rgba(39, 62, 84, 0.82);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+    margin-bottom: 100px;
+}
+
+.button {
+    background-color: #990000;
+    color: black;
+    width: 90%;
+    height: 50px;
+    padding: 5px;
+}
+
+.button h3 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.body1-text {
+    margin-top: 70px;
+}
+
+.body1-text h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.body1-text h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.body2-text {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.body2-text h1 {
+    text-align: center;
+    color: #990000;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.back {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: 600px;
+    background-size: auto;
+    background-image: url("../../images/home-explorer-shapes-bg@2x.png");
+}
+
+
+.image-shah {
+    background-color: #FFF8F2;
+    height: 600px;
+    marginBottom: 100;
+    margin-top: 50px;
+}
+
+.image-shah h1 {
+    text-align: center;
+    font-size: 2rem;
+padding-top: 300px;
+color: #990000;
+}
+
+
+.button1 h2{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    background-color: #990000;
+    width: 50%;
+    margin-left: 150px;
+    height: 50px;
+    padding: 2px;
+}
+
+
+
+.body3-text h1 {
+    color: #990000;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
