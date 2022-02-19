@@ -1,9 +1,3 @@
 @import '~antd/dist/antd.css';
 
 
-.ant-layout-header{
-    margin: 0;
-    width: 100%;
-    background-size: cover;
-    background-image: url("https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202106/MIT-Algorand-01_0.jpg?itok=kc8Jm3nW");
-}

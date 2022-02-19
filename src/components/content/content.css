@@ -1,13 +1,19 @@
 .hero-title {
-    margin-top: 150px;
-
+   margin-top: 80px;
+margin-left: 100px;
 }
-
+.ant-col-12{
+    background-image: url("../../images/Path 82.png");
+    background-size: 600px;
+    background-position-y: 15px;
+    background-position-x: -120px;
+    background-repeat: no-repeat;
+}
 .hero-title h1 {
-    text-align: center;
-    color: white;
-    font-size: 5rem;
+    color: #BA1C1D;
+    font-size: 3rem;
     font-weight: bold;
+
 }
 
 .hero-title h2 {
@@ -17,107 +23,285 @@
 }
 
 
-.ant-layout {
-    background-size: 1520px;
-    background-image: url("https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202106/MIT-Algorand-01_0.jpg?itok=kc8Jm3nW") !important;
-}
-
-
-.row {
-    padding: 30px;
-    background: rgba(39, 62, 84, 0.82);
-    overflow: hidden;
-    height: 100%;
-    z-index: 2;
-    margin-bottom: 100px;
-}
 
 .button {
+    margin-top: 20px;
     background-color: #990000;
-    color: black;
-    width: 90%;
+    width: 200px;
     height: 50px;
     padding: 5px;
 }
 
-.button h3 {
-    font-size: 25px;
-    text-align: center;
-    color: white;
-}
-
-.body1-text {
-    margin-top: 70px;
-}
-
-.body1-text h1 {
-    color: white;
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-.body1-text h2 {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.body2-text {
-    margin-top: 40px;
-    margin-bottom: 80px;
-}
-
-.body2-text h1 {
-    text-align: center;
-    color: #990000;
-    font-size: 3rem;
-    font-weight: bold;
+.button2 {
     margin-top: 20px;
-    margin-bottom: 50px;
-}
-
-
-.back {
-    margin-top: 50px;
-    margin-bottom: 100px;
-    height: 600px;
-    background-size: auto;
-    background-image: url("../../images/home-explorer-shapes-bg@2x.png");
-}
-
-
-.image-shah {
-    background-color: #FFF8F2;
-    height: 600px;
-    marginBottom: 100;
-    margin-top: 50px;
-}
-
-.image-shah h1 {
-    text-align: center;
-    font-size: 2rem;
-padding-top: 300px;
-color: #990000;
-}
-
-
-.button1 h2{
-    text-align: center;
-    color: white;
-    font-size: 2rem;
-    background-color: #990000;
-    width: 50%;
-    margin-left: 150px;
+    margin-left: -50px;
+    border: 1px solid white;
+    width: 200px;
     height: 50px;
-    padding: 2px;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+
+.button h3{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.button2 h3{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.ant-col-offset-2{
+    background-image: url("../../images/Group 7.png");
+    background-size: 600px;
+    background-position-y: 0px;
+    background-position-x: -70px;
+    background-repeat: no-repeat;
+}
+.content{
+    margin-top: 100px;
+}
+
+
+.test{
+    background-image: url("../../images/Group 7.png");
+    background-size: 550px;
+    background-position-y: 35px;
+    background-position-x: -60px;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.exp{
+    background-color: rgba(186, 28, 29,0.7);
+}
+
+.hero-title2{
+    background-image: url("../../images/Path 84.png");
+    background-size: 550px;
+    background-position-y: 0px;
+    background-position-x: -70px;
+    background-repeat: no-repeat;
 }
 
 
 
-.body3-text h1 {
-    color: #990000;
+.hero-title2 h1 {
+    color: #BA1C1D;
     font-size: 3rem;
     font-weight: bold;
+
+}
+
+.hero-title2 h2 {
+    text-align: justify;
+    color: white;
+    font-size: 17px;
+}
+
+
+
+.button3 {
     margin-top: 20px;
-    margin-bottom: 50px;
+   background-color: black;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+
+
+
+.button3 h3{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.exp2{
+    background-color: white;
+}
+
+.hero-title3{
+    background-image: url("../../images/Path 86.png");
+    background-size: 550px;
+    background-position-y: 0px;
+    background-position-x: 0px;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+
+
+.hero-title3 h1 {
+    color: #BA1C1D;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.hero-title3 h2 {
+    text-align: justify;
+    color: black;
+    font-size: 17px;
+}
+
+
+
+
+.button4 {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 100px;
+    border: 1px solid black;
+}
+
+
+
+.button4 h3{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.third-background{
+    background-image: url("../../images/Group 5.png");
+    background-size: 650px;
+    margin-top: 50px;
+    margin-left: 100px;
+
+    background-position-y: 30px;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    height: 515px;
+
+
+}
+
+
+.test2{
+    background-image: url("../../images/Group 4.png");
+    background-size: 550px;
+    background-position-y: 35px;
+    background-position-x: 60px;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.hero-title4{
+    margin-top: 110px;
+    background-image: url("../../images/Path 88.png");
+    background-size: 550px;
+    background-position-y: -15px;
+    background-position-x: 60px;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+.hero-title4 h1 {
+    color: #BA1C1D;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.hero-title4 h4 {
+    color: #BA1C1D;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.hero-title4 h2 {
+    text-align: match-parent;
+    color: white;
+    font-size: 17px;
+}
+
+
+.hero-title8{
+    background-image: url("../../images/Path 91.png");
+    background-size: 600px;
+    background-position-y: 0px;
+    background-position-x: 0px;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+
+.hero-title8 h1 {
+    color: #BA1C1D;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.hero-title8 h2 {
+    text-align: justify;
+    color: white;
+    font-size: 17px;
+}
+
+
+.button8 {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 100px;
+    background-color: black;
+}
+
+
+
+.button8 h3{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.button9 {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 100px;
+    border: 1px solid white;
+}
+
+
+
+.button9 h3{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.test8{
+    background-image: url("../../images/Group 4.png");
+    background-size: 600px;
+    background-position-y: 15px;
+    background-position-x: 0px;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+
+.finale{
+    background-color: black;
+}
+.finale h2{
+    text-align: justify;
+    color: white;
+    font-size: 20px;
 }

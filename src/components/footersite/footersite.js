@@ -5,41 +5,37 @@ import {Row} from 'antd';
 function FooterSite() {
   return (
       <div className="footer-container">
+       <Row>
+         <Col span={12} offset={6}>
+           <h1 style={{color:"white",textAlign:"center",marginLeft:50}}>© Copyrights</h1>
+         </Col>
+       </Row>
+        <div style={{marginBottom:30}}/>
         <Row>
-          <Col span={3} offset={1}>
-            <h1 style={{color: "white"}}>LOGO</h1>
-          </Col>
-          <Col span={9} offset={5}>
-            <div style={{textAlign: "center", color: "white", fontWeight: 600, fontSize: 15}}>
-              <Row>
-                <Col span={4}>
-                  ABOUT US
-                </Col>
-                <Col span={6}>
-                  SALES MILESTONE
-                </Col>
-                <Col span={4}>
-                  TEAM
-                </Col>
-                <Col span={4}>
-                  FAQ
-                </Col>
-              </Row>
-            </div>
-            <Row>
-              <Col>
-                <h1 style={{color:"white",textAlign:"center",fontSize:14,marginLeft:70,marginTop:30,lineHeight:2.5}}>
-                  Tough Guys Club NFT 2022.
-                  <br/>
-                  office@toughguys.club
-                </h1>
-              </Col>
-            </Row>
-          </Col>
-          <Col span={4} offset={1}>
-            <h1 style={{color:"white"}}>Logo</h1>
+          <Col span={12}offset={10}>
+            <Image
+                preview={false}
+                style={{marginRight: 20, width: 60, height: 60}}
+                src={require('../../images/Group 8.png')}
+            />
+            <Image
+                preview={false}
+                style={{marginRight: 20, width: 60, height: 60}}
+                src={require('../../images/Group 9.png')}
+            />
+            <Image
+                preview={false}
+                style={{marginRight: 20, width: 60, height: 60}}
+                src={require('../../images/Group 10.png')}
+            />
+            <Image
+                preview={false}
+                style={{marginRight: 20, width: 60, height: 60}}
+                src={require('../../images/Group 11.png')}
+            />
           </Col>
         </Row>
+        <div style={{marginBottom:20}}/>
       </div>
   );
 }
